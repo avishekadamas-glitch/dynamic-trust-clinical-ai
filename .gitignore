@@ -1,0 +1,26 @@
+# Local environment and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Participant data: never tracked by this code-only repository
+upload/*
+!upload/README.md
+
+# Analysis outputs, including participant-level fitted values and predictions
+work/corrected/dependence/
+work/corrected/prediction/
+work/peer_review/verification/
+work/peer_review/analysis/*.csv
+work/peer_review/analysis/*.json
+work/peer_review/*.json
+work/final_verification/*.json
+
+# Regenerated figures
+work/*.png
+work/*.svg
+work/*.pdf
+work/peer_review/*.png
+work/peer_review/*.svg
+work/peer_review/*.pdf
